@@ -1,0 +1,21 @@
+* {
+  text-align: center; }
+
+div {
+  background-color: yellow;
+  color: yellow; }
+  div h1 {
+    font-size: 1.2em;
+    padding: 4%;
+    margin: 10%;
+    border: 1px solid red;
+    background-color: blue;
+    padding: 3em; }
+  div p {
+    font-size: 1.1em;
+    color: black; }
+  div .dos {
+    background-color: yellow;
+    padding: 3em; }
+
+/*# sourceMappingURL=main.css.map */

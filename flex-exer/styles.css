@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-sizing: content-box;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 350px) {
+    body {
+        background-color: #F09A9D;
+        /* Red */
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        max-width: auto;
+        min-width: auto;
+        margin: 3px;
+    }
+    h1 {
+        font-size: 1.5em;
+        background-color: #000;
+        color: white;
+        padding: 1%;
+    }
+    #container {
+        background-color: #4b4b4b;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+        padding: 2%;
+    }
+    #box {
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
+        color: black;
+        background-color: whitesmoke;
+        width: auto;
+        height: auto;
+        padding: 1%;
+        box-sizing: content-box;
+        margin-top: 0.5em;
+        text-align: center;
+    }
+    #films {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .film {
+        margin: 0.5em;
+        /* flex-direction: row; */
+        text-align: center;
+        width: auto;
+    }
+    h4 {
+        text-align: center;
+        font-size: 1.3em;
+        background-color: black;
+        color: whitesmoke;
+        padding: 20% 5% 20% 5%;
+        box-sizing: content-box;
+    }
+    p {
+        background-color: #1a1a1a;
+        color: whitesmoke;
+        padding: 2%;
+        font-size: 0.7em;
+    }
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 350px) and (max-width: 7600px) {
+    body {
+        background-color: #F5CF8E;
+        /* Yellow */
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        max-width: 800px;
+        min-width: 300px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+        background-color: #000;
+        color: white;
+        padding: 1%;
+    }
+    #container {
+        background-color: #4b4b4b;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+        padding: 2%;
+    }
+    #box {
+        display: flex;
+        justify-content: flex-start;
+    }
+    h3 {
+        color: black;
+        background-color: whitesmoke;
+        max-width: 20%;
+        min-width: 76px;
+        height: auto;
+        padding: 1%;
+        box-sizing: content-box;
+        margin-top: 0.5em;
+    }
+    #films {
+        display: flex;
+        flex-wrap: wrap;
+        display: inherit;
+    }
+    .film {
+        margin: 0.5em;
+        /* flex-direction: row; */
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+        font-size: 1.3em;
+        background-color: black;
+        color: whitesmoke;
+        padding: 20% 5% 20% 5%;
+        box-sizing: content-box;
+    }
+    p {
+        background-color: #1a1a1a;
+        color: whitesmoke;
+        padding: 2%;
+        font-size: 0.7em;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 760px) {
+    body {
+        background-color: #4d2828;
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        max-width: 800px;
+        min-width: 300px;
+    }
+    h1 {
+        font-size: 1.5em;
+        background-color: #000;
+        color: white;
+        padding: 1%;
+    }
+    #container {
+        background-color: #4b4b4b;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+        padding: 2%;
+    }
+    #box {
+        display: flex;
+        justify-content: flex-start;
+    }
+    h3 {
+        color: black;
+        background-color: whitesmoke;
+        max-width: 20%;
+        min-width: 16%;
+        height: auto;
+        padding: 1%;
+        box-sizing: content-box;
+        margin-top: 0.5em;
+    }
+    #films {
+        display: flex;
+        flex-wrap: wrap;
+        /* display: inherit; */
+    }
+    .film {
+        margin: 0.5em;
+        /* flex-direction: row; */
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+        font-size: 1.3em;
+        background-color: black;
+        color: whitesmoke;
+        padding: 20% 5% 20% 5%;
+        box-sizing: content-box;
+    }
+    p {
+        background-color: #1a1a1a;
+        color: whitesmoke;
+        padding: 2%;
+        font-size: 0.7em;
+    }
+}

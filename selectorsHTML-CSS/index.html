@@ -1,0 +1,112 @@
+< !DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <title>selectors</title>
+    </head>
+
+    <body>
+        <div id="table">
+            <h1>Combinator selectors</h1>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Location</th>
+                            <th>Temperature</th>
+                        </tr>
+                        <tr>
+                            <td>London</td>
+                            <td>21C</td>
+                        </tr>
+                        <tr>
+                            <td>New York</td>
+                            <td>15C</td>
+                        </tr>
+                        <tr>
+                            <td>Rome</td>
+                            <td>30C</td>
+                        </tr>
+                        <tr>
+                            <td>Berlin</td>
+                            <td>10C</td>
+                        </tr>
+                        <tr>
+                            <td>Paris</td>
+                            <td>15C</td>
+                        </tr>
+                        <tr>
+                            <td>Pekin</td>
+                            <td>35C</td>
+                        </tr>
+                    </table>
+        </div>
+        <div id="formular">
+            <h1>Attribute selectors</h1>
+            <fieldset>
+                <div><input><label>apple</label></div>
+                <div><input><label>banana</label></div>
+                <div><input><label>melon</label></div>
+                <div><input><label>lemon</label></div>
+                <div><input><label>coconut</label></div>
+                <div><input><label>tomate</label></div>
+                <input type="url" name="website" />
+                <input value="select-fruit" />
+            </fieldset>
+        </div>
+        <form>
+            <p>Use :not </p><input type="checkbox" name="service" value="itunes" checked="checked" />iTunes <input
+                type="checkbox" name="service" value="lastfm" />Last.fm <input type="checkbox" name="service"
+                value="spotify" />Spotify
+        </form>
+
+        <div>
+            <h1>something</h1>
+            <p>This is a link with no target attribute</p>
+            <p>This is a link with no target attribute</p>
+            <p>This is a link with no target attribute</p>
+            <p>This is a link with no target attribute</p>
+        </div>
+
+        <div>
+            <img src="" alt="something"><img src="" alt="something"><img src="" alt="something">
+        </div>
+
+        <div>
+            <p>ala, ole, papa, nada</p>
+        </div>
+
+        <div>
+            <form>
+                <p>Use :nth-child </p><input type="checkbox" name="service" value="itunes" checked="checked" />iTunes
+                <input type="checkbox" name="service" value="lastfm" />Last.fm <input type="checkbox" name="service"
+                    value="spotify" />Spotify
+            </form>
+            <button>Reset</button>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Pseudo-classes</legend>
+
+                <label>Email*:
+                    <input type="text" name="email">
+                </label><br />
+
+                <label>Mobile:
+                    <input type="text" name="mobile">
+                </label><br />
+
+                <label>Telephone:
+                    <input type="text" name="telephone">
+                </label>
+
+            </fieldset>
+        </form>
+    </body>
+
+    </html>

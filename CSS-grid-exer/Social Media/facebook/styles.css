@@ -1,0 +1,117 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.web-container {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    margin: 0 10px;
+    width: 100%;
+}
+
+header {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 0.5em;
+}
+
+header>nav>ul>li {
+    display: inline;
+    color: white;
+}
+
+.personal>p {
+    display: inline;
+    color: white;
+}
+
+.personal>input {
+    background-color: white;
+}
+
+h1 {
+    grid-column: 1/4;
+    display: inline;
+    font-size: 1.1em;
+    padding: 1.2em;
+}
+
+.web-container>nav {
+    grid-column: 1;
+}
+
+.users {
+    grid-column: 2;
+}
+
+.highlights {
+    grid-column: 3;
+}
+
+.mind {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1em;
+    border-bottom: 1px solid black;
+}
+
+.mind:first-child {
+    border-bottom: none;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 0.5em;
+    border-radius: 3px;
+}
+
+.mind>section {
+    width: 90%;
+    padding: 0.3em;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mind>section>input {
+    width: 90%;
+}
+
+.comment {
+    width: 90%;
+}
+
+h2 {
+    font-size: 1em;
+    border-bottom: 1px solid black;
+}
+
+.advertise {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.advertise>img:not(.facebook) {
+    background-color: aqua;
+    height: 60px;
+    width: 70px;
+}
+
+.facebook {
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
+}
+
+.advertise

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/dark-wood.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    max-width: 1000px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header {
+    max-width: 100%;
+    background-color: grey;
+    margin-top: 0px;
+}
+
+main {
+    /* display: block; */
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: grey;
+}
+
+img {
+    width: 100%;
+}
+
+nav,
+footer {
+    padding: 5px;
+    color: white;
+    text-align: left;
+}
+
+#container {
+    /* background-color: hotpink; */
+    width: 60%;
+    padding: 20px;
+}
+
+#info {
+    /* background-color: lawngreen; */
+    width: 40%;
+    padding-left: 30px;
+    border-left: 1px solid grey;
+    margin: 0;
+    padding: 20px;
+}
+
+#dish {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
+
+#popular-recipes {}
+
+#contact {
+    padding-top: 35px;
+}
+
+figure {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#images-dish {
+    width: 250px;
+}
+
+.nav-recipes {
+    display: inline-block;
+    margin: 7px;
+    padding: 7px;
+    padding-left: 0;
+    color: red;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+h3,
+h4 {
+    color: red;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    padding: 5px;
+    padding-top: 20px;
+}

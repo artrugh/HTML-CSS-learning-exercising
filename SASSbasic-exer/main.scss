@@ -1,0 +1,38 @@
+$main-color: yellow;
+
+
+@mixin spaces ($border-color, $background-color) {
+    padding: 4%;
+    margin: 10%;
+    border: 1px solid $border-color;
+    background-color: $background-color;
+
+}
+
+* {
+    text-align: center;
+}
+
+div {
+    background-color: $main-color;
+    color: $main-color;
+
+
+    h1 {
+        font-size: 1.2em;
+        @include spaces (red, blue);
+        padding: 3em;
+    }
+
+    p {
+        font-size: 1.1em;
+        color: black;
+
+    }
+
+
+    .dos {
+        background-color: $main-color;
+        padding: 3em;
+    }
+}

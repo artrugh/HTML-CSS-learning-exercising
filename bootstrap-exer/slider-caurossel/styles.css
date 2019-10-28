@@ -1,0 +1,9 @@
+.carousel-item {
+    background-color: black;
+    transition: transform 5.5s ease, opacity 5.5s ease-out;
+}
+
+img {
+    border: 5px solid black;
+
+}
