@@ -1,0 +1,1 @@
+This is a simple example how to create function in scss without JavaScript!

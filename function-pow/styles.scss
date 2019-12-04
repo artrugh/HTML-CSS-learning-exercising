@@ -1,0 +1,63 @@
+$xs: 400px;
+$sm:500px;
+$md: 767px;
+$lg: 1023px;
+$xl: 1360px;
+
+@function pow($number, $exponent) {
+    $value: 1;
+
+    @if $exponent>0 {
+        @for $i from 1 through $exponent {
+            $value: $value * $number;
+        }
+    }
+
+    @return $value;
+}
+
+@mixin margin-top ($mult, $exponent) {
+
+    margin-top: $mult * pow(1.0488, $exponent);
+    // 1.1
+
+    // 400px-500px
+
+    @media only screen and (min-width: $xs) and (max-width: $sm) {
+
+        margin-top: $mult * pow(1.183, $exponent);
+        // 1.4
+
+    }
+    // tablet  +500px
+    @media only screen and (min-width: $sm) {
+
+        margin-top: $mult * pow(1.360, $exponent);
+        // 1.85
+    }
+}
+
+div {
+    height: 70px;
+}
+
+#red {
+    @include margin-top(1em, 2);
+    background-color: red;
+}
+
+#black {
+
+    @include margin-top(2em, 3);
+    background-color: black;
+}
+
+#blue {
+    @include margin-top(3em, 4);
+    background-color: blue;
+}
+
+#green {
+    @include margin-top(4em, 5);
+    background-color: green;
+}

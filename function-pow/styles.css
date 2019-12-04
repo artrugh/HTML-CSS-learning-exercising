@@ -1,0 +1,44 @@
+div {
+  height: 70px; }
+
+#red {
+  margin-top: 1.09998144em;
+  background-color: red; }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    #red {
+      margin-top: 1.399489em; } }
+  @media only screen and (min-width: 500px) {
+    #red {
+      margin-top: 1.8496em; } }
+
+#black {
+  margin-top: 2.3073210685em;
+  background-color: black; }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    #black {
+      margin-top: 3.311190974em; } }
+  @media only screen and (min-width: 500px) {
+    #black {
+      margin-top: 5.030912em; } }
+
+#blue {
+  margin-top: 3.629877505em;
+  background-color: blue; }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    #blue {
+      margin-top: 5.8757083834em; } }
+  @media only screen and (min-width: 500px) {
+    #blue {
+      margin-top: 10.26306048em; } }
+
+#green {
+  margin-top: 5.076020703em;
+  background-color: green; }
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    #green {
+      margin-top: 9.26795069em; } }
+  @media only screen and (min-width: 500px) {
+    #green {
+      margin-top: 18.6103496704em; } }
+
+/*# sourceMappingURL=styles.css.map */
