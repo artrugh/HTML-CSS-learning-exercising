@@ -1,0 +1,46 @@
+#cover {
+    background-image: url("./selva.png");
+    /* in this case the div works as a window for the whole img */
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+      
+}
+
+#cover-repeat {
+    background-image: url("./selva.png");
+    /* in this case the div works as a window for the whole img */
+    width: 200px;
+    height: 300px;
+/* in this case, because the img is three times smaller than the container, it repeats itself */
+    background-size: 300px 100px;  
+}
+
+#img-container {
+    width: 500px;
+}
+
+#in {
+    /* the image take the size of the container */
+    width: 100%;
+}
+
+#alone{
+    /* we can set only the width and the height is responsive */
+    /* width: 200px; */
+    /* or the height */
+    /* height: 200px; */
+    /* or in porcentaje of the full screen or the space the img has */
+    width: 30%;
+}
+
+div {
+    border: 2px solid red;
+    margin: 10px;
+}
+
+#img-back {
+      background-image: url("./selva.png");
+      width: 500px;
+}

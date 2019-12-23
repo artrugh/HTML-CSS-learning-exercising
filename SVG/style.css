@@ -3,11 +3,38 @@ svg {
 }
 
 .st0 {
-    border: none
+    border: none;
+    fill: red;
 }
 
 .st0:hover {
     fill: blue;
+}
+.st1 {
+    fill: #73ABDD
+}
+
+.st1:hover {
+    fill: #a88d1d
+}
+
+.st2 {
+    fill: #AFE2FD
+}
+
+.st2:hover {
+    fill: #131833
+}
+
+.st3 {
+    fill: none;
+    stroke: red;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.st3:hover{
+    stroke: blue; 
 }
 
 .circle {
