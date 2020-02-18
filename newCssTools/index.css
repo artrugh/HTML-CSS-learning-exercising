@@ -1,0 +1,79 @@
+div {
+    /* width: 160px;
+    height: 80px;
+    padding: 20px; */
+    border: 8px solid red;
+    background: yellow;
+    border-inline-end-style: dashed;
+
+}
+
+.content-box {
+    box-sizing: content-box;
+    border: 8px solid blue;
+    background: green;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.three {
+    display: contents;
+}
+
+.four {
+
+    inset-block: -webkit-inset-block;
+    /* Chrome */
+    /* direction:ltr ;
+    padding-block-end: 400px;
+    padding-bottom: 400px; */
+    inset-block: 20px 50px;
+
+}
+
+.five {
+    width: fit-content(20em);
+    direction: rtl;
+    border: 8px solid blue;
+    background: green;
+    margin-inline-start: 50px;
+    padding-inline-end: 60px;
+}
+
+.six{
+    width: 400px;
+    resize: vertical;
+    inline-size: 200px;
+    writing-mode: vertical-lr;
+
+}
+
+p.maxgreen {
+    background: lightgreen;
+    width: intrinsic;
+    /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;
+    /* Firefox/Gecko */
+    width: -webkit-max-content;
+    /* Chrome */
+    width: max-content;
+}
+
+p.minblue {
+    background: lightblue;
+    width: -moz-min-content;
+    /* Firefox */
+    width: -webkit-min-content;
+    /* Chrome */
+    width: min-content;
+}
+
+.box {
+    background: lightgreen;
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
